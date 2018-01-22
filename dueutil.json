@@ -1,0 +1,18 @@
+{
+    "botToken":"Mzk1NzM5MjgwNTMxNjUyNjA4.DUaHAw.XSssxYx8kvA4VTkmK3tpqWErsmI",
+    "owner":"360873336978276362",
+    "shardCount":1,
+    "shardNames":[
+       "Clone DueUtil: shard 1"
+    ],
+    "logChannel": "387381888844824576/396101750626451463",
+    "errorChannel": "387381888844824576/396101825373274122",
+    "feedbackChannel": "387381888844824576/396101906084397069",
+    "bugChannel": "387381888844824576/396102054701039626",
+    "announcementsChannel":"387381888844824576/396101969879760896",
+    "carbonKey":"[https://www.carbonitex.net key you won't have]",
+    "discordBotsOrgKey":"https://discordbots.org/ key you also won't have",
+    "discordBotsKey": "https://bots.discord.pw/ key you also also won't have",
+    "discoinKey":"http://discoin.sidetrip.xyz/ you will never get",
+    "sentryAuth": ""
+ }
