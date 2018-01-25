@@ -10,9 +10,9 @@ def conn():
     global db
     if db is None:
         client = MongoClient(config['host'])
-        client.admin.authenticate(config['user'], config['pwd'], mechanism='SCRAM-SHA-1')
+        client.dueutil.authenticate(config['user'], config['pwd'], mechanism='SCRAM-SHA-1')
         uri = "mongodb://" + config['user'] + ":" + config['pwd'] + "@" + config[
-            'host'] + "/admin?authMechanism=SCRAM-SHA-1"
+            'host'] + "/dueutil?authMechanism=SCRAM-SHA-1"
         db = MongoClient(uri).dueutil
         # client.drop_database('dueutil')
         return db
