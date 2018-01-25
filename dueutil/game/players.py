@@ -50,7 +50,6 @@ class Players(dict):
 players = Players()
 
 
-@tasks.task(timeout=Players.PRUNE_INACTIVITY_TIME)
 def prune_task():
     try:
         players.prune()
