@@ -11,7 +11,7 @@ import numpy
 
 import generalconfig as gconf
 from ..util import SlotPickleMixin
-from .. import dbconn, util, tasks, permissions
+from .. import dbconn, util, permissions
 from ..permissions import Permission
 from ..game import awards
 from ..game import weapons
