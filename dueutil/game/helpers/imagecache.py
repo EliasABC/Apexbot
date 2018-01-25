@@ -64,7 +64,6 @@ def get_cached_filename(name):
     return filename + '.jpg'
 
 
-@tasks.task(timeout=3600)
 def save_cache_info():
     dbconn.insert_object("stats", stats)
 
